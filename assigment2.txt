@@ -1,0 +1,23 @@
+#task 1
+#download dataset into your notebook
+
+#Unzip dataset
+
+#Load dataset into Panda dataframe called df
+
+#Display the first 5 rows of the df
+
+#task 2
+#Visualise Stock Index Price and the Interest Rate
+
+#Visualise Stock Index Price and the Unemployment Rate
+
+#Use Interest Rate and Unemployment Rate as independent variables and Stock Index Price as dependent variable
+
+#Use sklearn.linear_model.LinearRegression() to perform regression.
+
+# r2 score
+
+# root mean squared error: how far predicted from the actual value, on average
+
+print("when interest rate = {} and Unemployment Rate = {}, then Stock Index Price predicted is {}".format(xInput[0][0],xInput[0][1], yOutput[0]))
